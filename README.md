@@ -16,6 +16,8 @@ npm install nodebb-plugin-dice
 /roll 2d6!>4
 
 ```
+You can submit multiple rolls, but they have to be each on a separate line, everything else will be ignored.
+
 
 ![Screen Shot 2019-10-27 at 6 11 33 PM](https://user-images.githubusercontent.com/1398375/67637848-2e558080-f8e7-11e9-8fe8-d22a2e0c8f23.png)
 
