@@ -1,6 +1,6 @@
 # nodebb-plugin-dice
 
-
+A dice roller plugin based on https://github.com/GreenImp/rpg-dice-roller
 
 # Usage
 
