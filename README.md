@@ -1,6 +1,6 @@
 # nodebb-plugin-dice
 
-A dice roller plugin based on https://github.com/GreenImp/rpg-dice-roller
+A NodeBB dice roller plugin based on https://github.com/GreenImp/rpg-dice-roller
 
 # Usage
 
@@ -22,6 +22,7 @@ npm install nodebb-plugin-dice
 
 ![Screen Shot 2019-10-27 at 6 16 10 PM](https://user-images.githubusercontent.com/1398375/67637849-2e558080-f8e7-11e9-852c-40e0ddc3351e.png)
 
+### Notes 
 Keep in the mind the following points:
 
 * if you see an error `[[error:no-privileges]]` in the logs, that means that the delegated bot does not have write access to that specific category/topic, you need to make sure the bot can reply everywhere.
