@@ -1,0 +1,26 @@
+{
+  "name": "nodebb-plugin-dice",
+  "version": "1.0.0",
+  "description": "A NodeBB plugin to rolls dice",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "dice",
+    "roll"
+  ],
+  "author": {
+    "name": "NodeBB Team",
+    "email": "sales@nodebb.org"
+  },
+  "license": "MIT",
+  "nbbpm": {
+    "compatibility": "^1.13.0"
+  },
+  "dependencies": {
+    "rpg-dice-roller": "^3.1.5"
+  }
+}

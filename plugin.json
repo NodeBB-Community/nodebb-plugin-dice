@@ -1,0 +1,16 @@
+{
+  "name": "Dice",
+  "Description": "NodeBB Plugin for dice rolls",
+  "id": "nodebb-plugin-dice",
+  "url": "https://github.com/NodeBB/nodebb-plugin-dice",
+  "library": "library.js",
+  "hooks": [
+    { "hook": "static:app.load", "method": "init" },
+    { "hook": "filter:admin.header.build", "method": "addAdminNavigation" },
+    { "hook": "action:post.save", "method": "replyWithDiceRoll" }
+  ],
+  "acpScripts": [
+    "./static/admin.js"
+  ],
+  "templates": "static/templates"
+}
