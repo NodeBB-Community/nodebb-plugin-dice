@@ -36,7 +36,7 @@ plugin.rollRE = /^\/roll/i;
 
 plugin.replyWithDiceRoll = async function ({ post }) {
 	let { tid, content } = post;
-	let rolls = (content || '').split('\n')
+	let rolls = (content || '').replace(/(\r\n|\n|\r)/gm, '\n').split('\n')
 		.filter(line => {
 			return line && plugin.rollRE.test(line.trim())
 		})
