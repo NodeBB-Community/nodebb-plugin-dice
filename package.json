@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-dice",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A NodeBB plugin to rolls dice",
   "main": "library.js",
   "scripts": {

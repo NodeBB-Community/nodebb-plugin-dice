@@ -57,7 +57,7 @@ plugin.replyWithDiceRoll = async function (data) {
 		content: `${rolls.join('\n')}`
 	});
 
-	socketHelpers.notifyNew(uid, 'newPost', {
+	socketHelpers.notifyNew(postData.uid, 'newPost', {
 		posts: [ postData ],
 		'reputation:disabled': meta.config['reputation:disabled'] === 1,
 		'downvote:disabled': meta.config['downvote:disabled'] === 1
